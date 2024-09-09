@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav_logo">
+
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clock.html">Clock</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <div class="clock">
+            <span id="hrs">Select TimeZone</span>
+            <!-- <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span> -->
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <form name="f">
+            <select name="tz" onchange="dis()" size="7" >
+    
+            </select>
+        </form>
+        </div>
+
+    <script src="clock.js"></script>
+</body>
+</html>
