@@ -1,9 +1,7 @@
 const hr = document.getElementById("hrs");
-const min = document.getElementById("min");
-const sec = document.getElementById("sec");
+
 
 function dis() {
-//   tz = "Asia/Kolkata";
     tz=f.tz.options[f.tz.options.selectedIndex].value;
     str = new Date().toLocaleString("en-NZ", { timeZone: tz });
     hr.innerHTML = str;

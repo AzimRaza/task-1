@@ -107,9 +107,7 @@ ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* display: inline-block;
-    text-align: center;
-    position: relative; */
+    
 }
 
 .clock span::after{
@@ -137,14 +135,3 @@ select{
     background: rgba(121,126,146,0.11);
 }
 
-/* #hrs::after{
-    content: "HOURS";
-}
-
-#min::after{
-    content: "MINUTES";
-}
-
-#sec::after{
-    content: "SECONDS";
-} */
